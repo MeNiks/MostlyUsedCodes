@@ -51,6 +51,9 @@ avdmanager create avd -n avdtest -k "system-images;android-R;google_apis_playsto
 
 Delete Avd
 avdmanager delete avd -n avdtest
+or
+cd ~/.android/avd
+rm -rf emulatorNameIWantToDelete.*
 
 Start adb synchronously
 emulator -avd avdtest -netdelay none -netspeed full
