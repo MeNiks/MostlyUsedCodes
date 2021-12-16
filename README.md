@@ -44,6 +44,7 @@ sdkmanager "system-images;android-R;google_apis_playstore;x86"
 
 Avd List
 avdmanager list device
+emulator -list-avds
 
 Create Avd
 avdmanager create avd -n avdtest -k "system-images;android-R;google_apis_playstore;x86" -d "pixel"
