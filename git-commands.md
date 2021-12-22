@@ -8,6 +8,27 @@ For other location
 >ssh-keygen -f /locationpath/id_rsa
 ```
 
+Manage SSH for multiuser login
+```
+Add to /.ssh/config
+#Account - name@personal.com github
+Host github.com
+    HostName github.com
+    User github_username
+    IdentityFile ~/.ssh/id_rsa
+
+#Account - name@company.com github
+Host company.github.com
+    HostName github.com
+    User github_username
+    IdentityFile ~/.ssh/company_id_rsa
+```
+
+Now clone by 
+```
+git@company.github.com:company/reponame.git
+```
+
 For adding to new repository
 ```
 git init
