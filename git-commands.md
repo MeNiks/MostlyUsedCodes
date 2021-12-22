@@ -1,6 +1,6 @@
 git public/private key
 ```
->ssh-keygen
+>ssh-keygen -t rsa -b 4096 -C “name@example.com” // This will generate in /Users/username dir
 enter enter 
 1. Add public key on server.
 2. Use private on client machine.
