@@ -18,7 +18,7 @@ Host github.com
     IdentityFile ~/.ssh/id_rsa
 
 #Account - name@company.com github
-Host company.github.com
+Host company.github.com #company.github.com is custom domain you are creating at local
     HostName github.com
     User github_username
     IdentityFile ~/.ssh/company_id_rsa
@@ -26,7 +26,7 @@ Host company.github.com
 
 Now clone by 
 ```
-git@company.github.com:company/reponame.git
+git@company.github.com:company/reponame.git // company.github.com - is local custom domain you used earlier
 ```
 
 For adding to new repository
