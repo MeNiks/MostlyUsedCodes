@@ -27,7 +27,13 @@ Host company.github.com #company.github.com is custom domain you are creating at
 Now clone by 
 ```
 git@company.github.com:company/reponame.git // company.github.com - is local custom domain you used earlier
+
+And add below in config file in .git folder
+[user]
+	email = XXX@abc.com
+	name = username
 ```
+
 
 For adding to new repository
 ```
