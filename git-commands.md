@@ -1,5 +1,10 @@
 git public/private key
 ```
+Single account
+>ssh-keygen
+```
+
+```
 >ssh-keygen -t rsa -b 4096 -C "name@example.com" -f ~/.ssh/company_name
 enter enter 
 1. Add public key on server.
