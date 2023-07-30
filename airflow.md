@@ -18,6 +18,7 @@ Create User
 
 ```
 Run airflow in docker
-
+>docker --version
+>docker-compose --version
 
 ```
