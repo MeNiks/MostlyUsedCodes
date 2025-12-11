@@ -5,7 +5,7 @@ echo "🔄 Restarting adb in tcpip mode..."
 adb tcpip 5555
 
 # Wait for a second to ensure it restarts
-sleep 1
+sleep 2
 
 # Get the device IP address from route command
 DEVICE_IP=$(adb shell ip route | awk '{print $9}')
